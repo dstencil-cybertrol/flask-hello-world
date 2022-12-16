@@ -1,4 +1,4 @@
-FROM python:3.11
+FROM python:3.11-rc-slim-bullseye
 RUN mkdir /app
 WORKDIR /app/
 ADD . /app/
